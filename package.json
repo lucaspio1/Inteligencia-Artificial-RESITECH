@@ -3,5 +3,5 @@
     "chalk": "^5.0.1",
     "console-clear": "^1.1.1",
     "readline-sync": "^1.4.10"
-  },"type": "module",
+  },"type": "module"
 }
