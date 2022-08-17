@@ -10,7 +10,7 @@ console.log('')
 const NomeUsuario = readlineSync.question('Escreva ao lado como voce Gostaria de ser Chamado? ');clear();
 console.log('Olá, ' + chalk.green(NomeUsuario) + '! ' + 'Como voce esta se sentindo hoje? Espero que bem!');
 console.log('')
-const desejo = readlineSync.question (chalk.green(NomeUsuario) + ', Escreva ao lado o que voce deseja: ');
+const desejo = readlineSync.question (chalk.green(NomeUsuario) + ', Escreva ao lado, em poucas palavras o que voce deseja: ');
 clear();
 console.log('Legal '+ chalk.green(NomeUsuario) + ',você precisa ' + desejo );
 console.log('')
@@ -19,7 +19,7 @@ console.log('')
 readlineSync.question(chalk.white.bgBlueBright('Pressione enter para continuarmos.'))
 clear();
 console.log(chalk.green(NomeUsuario)+ ', eu já entendi o seu desejo e quero criar algo especial para voce,')
-console.log('Para isso digite aqui embaixo o porque voce deseja  ' + desejo + '.')
+console.log('Para isso digite aqui embaixo, em poucas palavras, o porque voce deseja  ' + desejo + '.')
 const paraQue = readlineSync.question()
 clear();
 console.log(chalk.green.bgWhiteBright('Uau!! Otimas Resposta!!'))
